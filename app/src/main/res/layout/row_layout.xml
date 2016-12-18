@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:background="#eee"
+    android:layout_marginBottom="10dp">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sample"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#E91D62"
+        android:id="@+id/solution_title_card"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/solution_body_card"
+        android:text="This is a test demo and it is to be shared. In the jungle the mighty jungle the lion sleeps tonight"
+        android:layout_below="@id/solution_title_card"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Papan"
+        android:textColor="#2095F2"
+        android:textAlignment="textEnd"
+        android:gravity="end"
+        android:id="@+id/solution_user_card"
+        android:layout_below="@id/solution_body_card"/>
+
+</RelativeLayout>
+

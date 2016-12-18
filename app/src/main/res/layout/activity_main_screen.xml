@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.webina.rajsekhar.whackamole.MainScreen">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="0dp"
+        android:padding="0dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:src="@drawable/logo"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="My Profile"
+                android:textColor="#fff"
+                android:backgroundTint="#2095F2"
+                android:id="@+id/profile"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Solutions"
+                android:textColor="#fff"
+                android:id="@+id/solutions"
+                android:backgroundTint="#2095F2"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Games"
+                android:id="@+id/game"
+                android:textColor="#fff"
+                android:backgroundTint="#2095F2"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Guide Dictionary"
+                android:textColor="#fff"
+                android:id="@+id/guide_dictionary"
+                android:backgroundTint="#2095F2"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Upload Guideline"
+                android:textColor="#fff"
+                android:id="@+id/guide_dictionary_upload"
+                android:backgroundTint="#2095F2"
+                />
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Users List"
+                android:textColor="#fff"
+                android:id="@+id/viewUserList"
+                android:backgroundTint="#2095F2"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Logout"
+                android:layout_weight="1"
+                android:height="70dp"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:textColor="#fff"
+                android:backgroundTint="#E91D62"
+                android:id="@+id/logout"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Feedback"
+                android:layout_weight="1"
+                android:height="70dp"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:textColor="#fff"
+                android:backgroundTint="#E91D62"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Settings"
+                android:layout_weight="1"
+                android:height="70dp"
+                android:layout_margin="0dp"
+                android:padding="0dp"
+                android:textColor="#fff"
+                android:backgroundTint="#E91D62"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
